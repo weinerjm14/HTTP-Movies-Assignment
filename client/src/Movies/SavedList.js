@@ -24,6 +24,7 @@ function SavedList({ list }) {
           <Link to="/add-movie">Add Movie</Link>
         </div>
       </div>
+      +
     </div>
   );
 }
