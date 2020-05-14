@@ -43,6 +43,13 @@ body {
 .saved-movie {
   margin: 0 10px;
 }
+
+.navs {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 25%;
+}
 .saved-active {
   color: blue;
   border: 1px solid grey;
@@ -90,6 +97,10 @@ body {
   color: white;
 }
 .home-button {
+  padding: 5px 10px;
+  background-color: lightskyblue;
+}
+.add-button {
   padding: 5px 10px;
   background-color: lightskyblue;
 }
